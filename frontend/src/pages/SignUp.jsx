@@ -48,7 +48,7 @@ export default function SignUp({ label }) {
         />
         
           <Button onClick={async () => {
-           const response = await axios.post("https://transfer-io-1h8b.onrender.com/api/v1/users/signup",{
+           const response = await axios.post("http://localhost:3000/api/v1/users/signup",{
               username,
               firstName,
               lastName,
