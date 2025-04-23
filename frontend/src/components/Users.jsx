@@ -17,7 +17,7 @@ export function Users() {
   //   fetchUsers(input);
 
   // another way by simple promise
-  axios.get(`http://localhost:3000/api/v1/users/bulk/?filter=${input}`,{
+  axios.get(`https://transfer-io-1h8b.onrender.com/api/v1/users/bulk/?filter=${input}`,{
     headers: {
       "Authorization": `Bearer ${token}`
     }
